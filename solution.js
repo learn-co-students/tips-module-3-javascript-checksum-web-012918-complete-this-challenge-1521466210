@@ -31,7 +31,7 @@ function checkSum(array) {
     counter += rowSum
   }
 
-  console.log(counter)
+  // console.log(counter)
   return counter
 }
 
