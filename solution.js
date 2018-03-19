@@ -4,8 +4,8 @@ function checkSum(array) {
   for (let i = 0; i < array.length; i++) {
     let arrayMax = Math.max(...array[i])
     let arrayMin = Math.min(...array[i])
-    let diff = max - min
-    diffs.push(diff)
+    let array = max - min
+    sortedArray.push(array)
   }
 
   function sortedArray(a, b) {
