@@ -35,6 +35,6 @@ const fiveMax = Math.max(...result5);
 const fiveMin = Math.min(...result5);
    const finalFive = fiveMax - fiveMin
 
-   // I want to sum up the total difference 
+   // I want to sum up the total difference
   return totalSum = finalOne + finalTwo +finalThree +finalFour +finalFive
 }
