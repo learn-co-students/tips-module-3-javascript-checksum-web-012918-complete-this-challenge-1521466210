@@ -7,8 +7,8 @@ var data = [
 ]
 
 function rowDifference(row) {
-  let min = null;
-  let max = null;
+  let min = null
+  let max = null
 
   for (let i = 0; i < row.length; i++) {
     if (min === null || row[i] < min) {
@@ -24,7 +24,7 @@ function rowDifference(row) {
 
 
 function checkSum(array) {
-  let counter = 0;
+  let counter = 0
 
   for (let row of array) {
     rowSum = rowDifference(row)
@@ -32,7 +32,7 @@ function checkSum(array) {
   }
 
   console.log(counter)
-  return counter;
+  return counter
 }
 
 checkSum(data);
