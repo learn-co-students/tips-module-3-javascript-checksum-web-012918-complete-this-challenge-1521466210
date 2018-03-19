@@ -13,17 +13,26 @@ var data = [
 
 // const arrMin = data => Math.min(...data);
 // const arrMax = data => Math.max(...data);
-let numbs = []
-data.forEach(a){
-	let arrMin = data => Math.min(...data);
-	let arrMax = data => Math.max(...data);
-	numbs.push(arrMax - arrMin)
+// let numbs = []
+// let myMap = new Map()
+// function test(){
+// 	myMap(a){
+// 		let arrMin = data => Math.min(...a);
+// 		let arrMax = data => Math.max(...a);
+// 		numbs.push(arrMax - arrMin)
+// 	}
+// }
+//
+// var sum = numbs.reduce(add, 0);
+//
+// function add(a, b) {
+//     return a + b;
+// }
+//
+// console.log(sum);
+
+
+function checksum(arr) {
+  return arr.map(arr)
+	 arr.sort((a,b) => a - b)).map(x => x[x.length - 1] - x[0]).reduce((total, x) => (total || 0) + x)
 }
-
-var sum = numbs.reduce(add, 0);
-
-function add(a, b) {
-    return a + b;
-}
-
-console.log(sum);
