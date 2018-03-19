@@ -18,7 +18,7 @@ function rowDifference(row) {
     }
   }
 
-  return max - min;
+  return max - min
 
 }
 
