@@ -3,7 +3,6 @@ checksum = data.reduce((sum, row) =>{
 }, 0)
 
 
-
 // ```js
 // var data = [
 //   [409, 194, 207, 470, 178],
