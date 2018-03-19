@@ -16,12 +16,9 @@ var data = [
 // 292 + 408 + 232 + 6255 + 5944 = 13131
 
 function checksum(arr) {
-  let newarr = arr.map(arr => {
-    arr.sort((a,b) => a - b)
-    return arr[arr.length - 1] - arr[0]
-  })
-  .reduce((total, x) => {return total + x}, 0)
-  return newarr
+  return arr.map(arr => arr.sort((a,b) => a - b))
+  .map(x => x[x.length - 1] - x[0])
+  .reduce((total, x) => (total || 0) + x)
 }
 
 checksum(data)
