@@ -27,7 +27,7 @@ function checkSum(array) {
   let counter = 0
 
   for (let row of array) {
-    rowSum = rowDifference(row)
+    let rowSum = rowDifference(row)
     counter += rowSum
   }
 
